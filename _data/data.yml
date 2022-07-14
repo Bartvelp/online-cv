@@ -2,193 +2,136 @@
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 
+site:
+  title: "CV of Bart Grosman"
+  description: "Resume of Bart Grosman - 2022 - Bioinformatics Developer"
+
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Bart Grosman
+    tagline: Bioinformatician
+    avatar: me.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
+    email: bart@bartit.nl
+    phone: +31616936708 
+#    timezone: America/Cancun Timezone
     citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website: bartit.nl #do not add http://
+    linkedin: bart-grosman-068787199
+    linkedin_clean: bart-grosman
+    github: Bartvelp
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter:
+    stack-overflow: 5329317/bart # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    # pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
-      - idiom: English
+      - idiom: Dutch
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
+      - idiom: English
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: Programming
         link:
+      
+      - item: Electronics
+        link: https://bartit.nl/covid.html
 
       - item: Snowboarding
         link:
 
-      - item: Cooking
-        link:
+education:
+    - degree: Master of Bioinformatics
+      university: University of Wageningen
+      time: Sept 2020 - Sept 2022
+      details: |
+        The master in Bioinformatics allows me to see what programming paradigms are used in computer science related to genetic analysis and other biological problems. 
+        In bioinformatics, analysis of big datasets is key, often concerning DNA, RNA or protein sequences. 
+        This master allows me to learn several skills to process large amounts of data and perform valid statistical tests to extract information. 
+        <br>
+        My average grade was an 8.3/10.
+    - degree: Bachelor of Science in Biotechnology
+      university: University of Wageningen
+      time: Sept 2017 - Sept 2020
+      details: |
+        In this bachelor several aspects of Biotechnology were explored. Like metabolic engineering of microorganisms, 
+        analyzing genomic data and designing a bioreactor. 
+        I also took the bioinformatics minor to get even more experience working with genomic data, programming and bioinformatic tools.
 
 career-profile:
-    title: Career Profile
+    title: About me
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
-education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+      As a bioinformatician I always aim to combine my technological know-how with my love for biology. I have an practical mindset
+      and like to communicate with researchers and engineers to discuss ideas. While almost all of my skills related to computer science
+      I have acquired outside of formal schooling, my time in university was spent to get deeper biological knowledge.
+       
+      Most of my programming experience is in interpreted languages like Python and JS, but I can easily pivot to AOT compiled languages like C.
+      Due to my intrinsic interest in Computer Science I have much more knowledge than many other recently bioinformaticians with regards to algorithm design, and
+      programming best practices. I would love to put this knowledge to use in a developing oriented bioinformatics position!
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Bioinformatics Developer Intern
+      time: March 2022 - July 2022
+      company: ENPICOM
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        During this 4-month internship I worked on an online (IGX) platform used by immunologists worldwide. 
+        I augmented a state-of-the art therapeutic monoclonal <i>in-silico</i> analysis tool and developed a 3D antibody viewer.
+        This internship included extensive source code analysis in Python, coding lots of functionalities in Typescript and React and interaction
+        with researchers aiming to use my tool.
+    - role: Freelance web engineer
+      time: 2018 - Present
+      company: BartIT
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        As a freelancer I provide web consultancy and do security pentesting. 
+        As an ethical hacker I have been able to help several well known dutch companies improve their security.
+        Technologies I work with range from HTML/CSS/JS and Typescript to lower level HTTP and TCP protocol implementation analysis. 
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      While some of these projects were performed in University, I have many more projects listed on my Github profile if you are interested.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Building a machine vision based feedback-controlled microfluidics system • Msc. Thesis
+        tagline: |
+          In my thesis at the BioNanoTechnology group at the WUR, I created a physical device that allows researchers
+          in microfluidics to easily automate their experiments using a machine vision pipeline. This lab automation project was based
+          on a cheap 3D printer, a cheap SBC and software written in Python 3 to make it accessible for every microfluidics lab.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: On the usage of a TPU in mobile metagenomic analysis • Bsc. Thesis
+        tagline: |
+          In this thesis a new relatively novel way of using Deep Neural Networks, using a Tensor Processing Unit, was evaluated in the context
+          of direct species calling using raw nanopore sequencing reads. This was based on a model by Google's AI lab.
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: CovidAlarm
+        tagline: |
+          Unlike the previous projects, this was a small business I co-founded during the pandemic to tackle social distancing. Using a sensor,
+          distances between 2 devices could be measured and guaranteed at >1.5 m. I was responsible for the software implementation (in C++), the electrical engineering (including PCB design),
+          and the assembly of the devices.
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python & Typescript
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Linux
+        level: 90%
 
-      - name: Angular
-        level: 98%
+      - name: R / C / SQL
+        level: 75%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Data handling <br> (FAIR data / Big data / Provenance)
+        level: 80%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: Front-end websites
+        level: 90%
