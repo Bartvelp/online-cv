@@ -162,7 +162,7 @@ p {
 .main-wrapper {
   grid-column: span 7;
   background: #fff;
-  padding: 60px;
+  padding: 40px;
   .section-title {
     text-transform: uppercase;
     font-size: 20px;
@@ -173,7 +173,7 @@ p {
     margin-bottom: 20px;
   }
   .section {
-    margin-bottom: 40px;
+    margin-bottom: 25px;
   }
 
   .experiences-section,
@@ -274,5 +274,20 @@ p {
 
   .fa-heart {
     color: $heart;
+  }
+}
+
+
+.skill-chip-list {
+  padding: 0;
+  li {
+    display: inline-block;
+    margin: 3px;
+    padding: 4px 6px;
+    color: #374054;
+    background: #e4e4ea;
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em;
   }
 }

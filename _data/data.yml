@@ -58,7 +58,6 @@ education:
         The master in Bioinformatics allows me to see what programming paradigms are used in computer science related to genetic analysis and other biological problems. 
         In bioinformatics, analysis of big datasets is key, often concerning DNA, RNA or protein sequences. 
         This master allows me to learn several skills to process large amounts of data and perform valid statistical tests to extract information. 
-        <br>
         My average grade was an 8.3/10.
     - degree: Bachelor of Science in Biotechnology
       university: University of Wageningen
@@ -76,7 +75,7 @@ career-profile:
       I have acquired outside of formal schooling, my time in university was spent to get deeper biological knowledge.
        
       Most of my programming experience is in interpreted languages like Python and JS, but I can easily pivot to AOT compiled languages like C.
-      Due to my intrinsic interest in Computer Science I have much more knowledge than many other recently bioinformaticians with regards to algorithm design, and
+      Due to my intrinsic interest in Computer Science I have much more knowledge than many other recently graduated bioinformaticians with regards to algorithm design, and
       programming best practices. I would love to put this knowledge to use in a developing oriented bioinformatics position!
 
 experiences:
@@ -117,21 +116,25 @@ projects:
           distances between 2 devices could be measured and guaranteed at >1.5 m. I was responsible for the software implementation (in C++), the electrical engineering (including PCB design),
           and the assembly of the devices.
 
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Typescript
-        level: 98%
-
-      - name: Linux
-        level: 90%
-
-      - name: R / C / SQL
-        level: 75%
-
-      - name: Data handling <br> (FAIR data / Big data / Provenance)
-        level: 80%
-
-      - name: Front-end websites
-        level: 90%
+skill-chips:
+  - name: JavaScript
+  - name: Node.js
+  - name: Python
+  - name: Git
+  - name: R
+  - name: C
+  - name: Typescript
+  - name: SQL
+  - name: Vue
+  - name: PWA
+  - name: Serverless
+  - name: Microservices
+  - name: C++
+  - name: Arduino
+  - name: HTTP stack
+  - name: TCP/IP
+  - name: FAIR data
+  - name: BIG data
+  - name: Provenance
+  - name: 3D-Printing
+  - name: CAD

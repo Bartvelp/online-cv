@@ -1,0 +1,14 @@
+{% assign skill-chips = site.data.data.skill-chips %}
+{% if skill-chips %}
+<div class="container-block">
+  <h2 class="container-block-title">
+    Skills
+  </h2>
+
+  <ul class="skill-chip-list">
+    {% for skill in skill-chips %}
+      <li>{{ skill.name }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
