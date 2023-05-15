@@ -12,7 +12,7 @@ sidebar:
 
     # Profile information
     name: Bart Grosman
-    tagline: Bioinformatician
+    tagline: Bioinformatician & Ethical Hacker
     avatar: me.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -31,7 +31,6 @@ sidebar:
     stack-overflow: 5329317/bart # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://bartit.nl/cv.pdf
 
     languages:
       - idiom: Dutch
@@ -57,7 +56,7 @@ education:
       details: |
         The master in Bioinformatics allows me to see what programming paradigms are used in computer science related to genetic analysis and other biological problems. 
         In bioinformatics, analysis of big datasets is key, often concerning DNA, RNA or protein sequences. 
-        This master allows me to learn several skills to process large amounts of data and perform valid statistical tests to extract information. 
+        This master allows me to learn several skills to process large amounts of data and perform valid statistical tests to extract information.  
         My average grade was an 8.3/10.
     - degree: Bachelor of Science in Biotechnology
       university: University of Wageningen
@@ -70,60 +69,63 @@ education:
 career-profile:
     title: About me
     summary: |
-      As a bioinformatician I always aim to combine my technological know-how with my love for biology. I have an practical mindset
-      and like to communicate with researchers and engineers to discuss ideas. While almost all of my skills related to computer science
-      I have acquired outside of formal schooling, my time in university was spent to get deeper biological knowledge.
-       
-      Most of my programming experience is in interpreted languages like Python and JS, but I can easily pivot to AOT compiled languages like C.
-      Due to my intrinsic interest in Computer Science I have much more knowledge than many other recently graduated bioinformaticians with regards to algorithm design, and
-      programming best practices. I would love to put this knowledge to use in a developing oriented bioinformatics position!
+      From a young age I've been interested in the inner workings of many different things. When I discovered biology in high-school
+      I knew I wanted to persue an education in it. In the mean time I was already getting familiar with programming websites, and what common weaknesses
+      are. I decided at the time that teaching myself Information Technology would be easier than teaching myself the 
+      inner workings of biology, given the wealth of knowledge available online. By specializing in Bioinformatics, I've rediscoverd my love 
+      for complex IT problems. I am currently working in the field of human health in relation to ML research in pathology.
 
 experiences:
-    - role: Bioinformatics Developer Intern
-      time: March 2022 - July 2022
-      company: ENPICOM
+    - role: Software Engineer
+      time: Oct 2022 - Present
+      company: Slide Score (& Dutch Cancer Institute)
       details: |
-        During this 4-month internship I worked on an online (IGX) platform used by immunologists worldwide. 
-        I augmented a state-of-the art therapeutic monoclonal <i>in-silico</i> analysis tool and developed a 3D antibody viewer.
-        This internship included extensive source code analysis in Python, coding lots of functionalities in Typescript and React and interaction
-        with researchers aiming to use my tool.
+        As a software engineer at Slide Score I've been working on designing and implementing new data structures that allow for high
+        performance visualization of Machine Learning results in digital pathology. I've also introduced more modern programming practices,
+        like the use of modular TypeScript and Continous Integration. Some of the technologies used are: TypeScript/JavaScript, C#, Python, Docker,
+        Gitlab C.I.
+
     - role: Freelance web engineer
       time: 2018 - Present
       company: BartIT
       details: |
         As a freelancer I provide web consultancy and do security pentesting. 
         As an ethical hacker I have been able to help several well known dutch companies improve their security.
-        Technologies I work with range from HTML/CSS/JS and Typescript to lower level HTTP and TCP protocol implementation analysis. 
+        Technologies I work with include HTML/CSS/JS(/TS), Python, PHP, caching layers validation. 
+
 projects:
     title: Projects
     intro: >
       While some of these projects were performed in University, I have many more projects listed on my Github profile if you are interested.
     assignments:
+      - title: CovidAlarm
+        tagline: |
+          This was a small business I co-founded during the pandemic to tackle social distancing. Using a sensor,
+          distances between 2 devices could be measured and guaranteed at >1.5 m. I was responsible for the software implementation (in C++), the electrical engineering (including PCB design),
+          and the assembly of the devices.
+
       - title: Building a machine vision based feedback-controlled microfluidics system • Msc. Thesis
         tagline: |
           In my thesis at the BioNanoTechnology group at the WUR, I created a physical device that allows researchers
           in microfluidics to easily automate their experiments using a machine vision pipeline. This lab automation project was based
           on a cheap 3D printer, a cheap SBC and software written in Python 3 to make it accessible for every microfluidics lab.
-
-      - title: On the usage of a TPU in mobile metagenomic analysis • Bsc. Thesis
+      
+      - title: Bioinformatics Contest 2021 Finalist
         tagline: |
-          In this thesis a new relatively novel way of using Deep Neural Networks, using a Tensor Processing Unit, was evaluated in the context
-          of direct species calling using raw nanopore sequencing reads. This was based on a model by Google's AI lab.
-
-      - title: CovidAlarm
-        tagline: |
-          Unlike the previous projects, this was a small business I co-founded during the pandemic to tackle social distancing. Using a sensor,
-          distances between 2 devices could be measured and guaranteed at >1.5 m. I was responsible for the software implementation (in C++), the electrical engineering (including PCB design),
-          and the assembly of the devices.
+          This online contest tests the ability of contestants to implement algorithms to a novel Bioinfomatics problems in a small time
+          window. I was able to pass the qualification round to proceed to the finals, and managed to finish in the top 3% of contestants.  
+          This contest is organized by the Rosalind team.
 
 skill-chips:
   - name: JavaScript
-  - name: Node.js
   - name: Python
   - name: Git
   - name: R
   - name: C
+  - name: C#
   - name: Typescript
+  - name: Node.js
+  - name: Docker/Containers
   - name: SQL
   - name: Vue
   - name: PWA
@@ -132,6 +134,7 @@ skill-chips:
   - name: C++
   - name: Arduino
   - name: HTTP stack
+  - name: Responsible Disclosure
   - name: TCP/IP
   - name: FAIR data
   - name: BIG data
